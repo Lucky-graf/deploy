@@ -1,5 +1,5 @@
 #!bin/bash/
-
+time=$(date +%E)
 echo Hi, I was created to deploy a term paper Boyko Bogdan
 echo --Start deploy environment--
 echo Deployment started LAMP Server
@@ -15,3 +15,4 @@ sudo systemctl status apache2
 echo '-----------!!!Congratulations!!!-----------------'
 echo '!!!Your server is working fine and feeling good!!!'
 sudo rm - r lamp-instul
+echo 'This operation took-' $(($(date +%s)-$time)) '-time!'
