@@ -12,3 +12,4 @@ sudo systemctl restart apache2
 sudo systemctl status apache2
 echo '-----------!!!Congratulations!!!-----------------'
 echo '!!!Your server is working fine and feeling good!!!'
+sudo rm - r lamp-instul
