@@ -3,13 +3,13 @@ time=$(date +%s)
 echo Hi, I was created to deploy a term paper Boyko Bogdan
 echo --Start deploy environment--
 echo Deployment started LAMP Server
-sleep 5s
+sleep 5
 git clone https://github.com/Lucky-graf/lamp-instul.git
-bash lamp-instul/lamp_inst.sh
+bash /home/graf/deploy/lamp-instul/lamp_inst.sh
 echo Now mount the site
-sleep 5s
+sleep 5
 git clone https://github.com/Lucky-graf/mysite.git
-sudo mv mysite /var/www/site-car 
+sudo mv /home/graf/deploy/mysite /var/www/site-car 
 sudo systemctl restart apache2
 sudo systemctl status apache2
 echo '-----------!!!Congratulations!!!-----------------'
