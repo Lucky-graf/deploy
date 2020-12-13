@@ -1,5 +1,5 @@
 #!bin/bash/
-time=$(date +%E)
+time=$(date +%s)
 echo Hi, I was created to deploy a term paper Boyko Bogdan
 echo --Start deploy environment--
 echo Deployment started LAMP Server
