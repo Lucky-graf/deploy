@@ -5,6 +5,7 @@ echo --Start deploy environment--
 echo Deployment started LAMP Server
 sleep 5s
 git clone https://github.com/Lucky-graf/lamp-instul.git
+cd lamp-instul
 bash lamp_inst.sh
 echo Now mount the site
 sleep 5s
