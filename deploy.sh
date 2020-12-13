@@ -1,5 +1,5 @@
 #!bin/bash/
-time=$(date +%s)
+times=$(date +%s)
 echo Hi, I was created to deploy a term paper Boyko Bogdan
 echo --Start deploy environment--
 echo Deployment started LAMP Server
@@ -17,4 +17,4 @@ echo '-----------!!!Congratulations!!!-----------------'
 echo '!!!Your server is working fine and feeling good!!!'
 sudo rm -rf /home/graf/deploy
 #sudo rmdir -R lamp-instul
-echo 'This operation took-' $(($(date +%s)-$time)) '-time!'
+echo 'This operation took-' $(($(date +%s)-$times)) '-time!'
