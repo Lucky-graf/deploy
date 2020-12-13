@@ -14,6 +14,6 @@ sudo systemctl restart apache2
 sudo systemctl status apache2
 echo '-----------!!!Congratulations!!!-----------------'
 echo '!!!Your server is working fine and feeling good!!!'
-sudo rm -rf /home/graf/deploy
+#sudo rm -rf /home/graf/deploy
 #sudo rmdir -R lamp-instul
 echo 'This operation took-' $(($(date +%s)-$time)) '-time!'
