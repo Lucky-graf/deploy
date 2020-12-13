@@ -10,7 +10,7 @@ bash lamp_inst.sh
 echo Now mount the site
 sleep 5
 git clone https://github.com/Lucky-graf/site-car.git
-sudo mv /home/graf/deploy/mite-car /var/www/
+sudo mv /home/graf/deploy/site-car /var/www/
 sudo systemctl restart apache2
 sudo systemctl status apache2
 echo '-----------!!!Congratulations!!!-----------------'
