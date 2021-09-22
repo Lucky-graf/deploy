@@ -4,7 +4,8 @@ echo Hi, I was created to deploy a term paper Boyko Bogdan
 echo --Start deploy environment--
 echo Now mount the site
 sleep 5
-git clone https://github.com/Lucky-graf/site-car.git
+sudo mkdir /home/graf
+git clone https://github.com/Lucky-graf/site-car.git /home/graf/
 sudo mkdir /var/www/
 sudo mv /home/graf/deploy/site-car /var/www/
 echo Deployment started LAMP Server
